@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg1"
+    tools:context="com.example.anchalgarg.myapplication.startup_activity">
+
+    <TextView
+        android:id="@+id/tech_area_field"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_above="@+id/editText4"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_marginBottom="11dp"
+        android:text="TEAM"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <Spinner
+        android:id="@+id/sub_domain_spinner"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView9"
+        android:layout_alignEnd="@+id/editText4"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_marginBottom="13dp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="TECH SECTION"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tech_needs"
+        android:layout_alignLeft="@+id/sub_domain_spinner"
+        android:layout_alignStart="@+id/sub_domain_spinner"
+        android:text="Specific Tech needs"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <EditText
+        android:id="@+id/tech_needs"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView10"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tech_area_field"
+        android:layout_alignLeft="@+id/tech_needs"
+        android:layout_alignStart="@+id/tech_needs"
+        android:layout_marginBottom="21dp"
+        android:text="Employs needed in area-"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/list_view"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_marginBottom="19dp"
+        android:text="ABOUT THE TEAM (employees)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView11"
+        android:layout_alignEnd="@+id/list_view"
+        android:layout_alignRight="@+id/list_view"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="Team size"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="358dp"
+        android:layout_height="132dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sub_domain_spinner"
+        android:layout_alignStart="@+id/sub_domain_spinner"
+        android:layout_below="@+id/textView5"
+        android:text="tech area" />
+
+    <Button
+        android:id="@+id/reg_complete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Complete registration" />
+
+
+</RelativeLayout>

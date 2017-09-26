@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anchalgarg.myapplication.HRFirmActivity">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKILL LEVEL (0 being lwest and 100 highest)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/skillLvl"
+        android:layout_alignStart="@+id/skillLvl"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="14dp" />
+
+    <EditText
+        android:id="@+id/skillLvl"
+        android:layout_width="364dp"
+        android:layout_height="27dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="45dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textView24"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/skillLvl"
+        android:layout_alignStart="@+id/skillLvl"
+        android:layout_below="@+id/skillLvl"
+        android:layout_marginTop="29dp"
+        android:text="Tech Area" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView25"
+        android:layout_marginTop="12dp"
+        android:layout_alignLeft="@+id/textView25"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_alignRight="@+id/skillLvl"
+        android:layout_alignEnd="@+id/skillLvl" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView24"
+        android:layout_alignStart="@+id/textView24"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="19dp"
+        android:text="Please provide a link to your website" />
+
+    <EditText
+        android:id="@+id/webLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/spinner"
+        android:layout_alignLeft="@+id/textView26"
+        android:layout_alignRight="@+id/spinner"
+        android:layout_alignStart="@+id/textView26"
+        android:layout_below="@+id/textView26"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/CompleteReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="complete your profile"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/webLink"
+        android:layout_alignStart="@+id/webLink"
+        android:layout_below="@+id/webLink"
+        android:layout_marginTop="21dp"
+        android:text="Please provide your Contact No." />
+
+    <EditText
+        android:id="@+id/contact_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/webLink"
+        android:layout_alignLeft="@+id/textView29"
+        android:layout_alignRight="@+id/webLink"
+        android:layout_alignStart="@+id/textView29"
+        android:layout_below="@+id/textView29"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="number" />
+</RelativeLayout>

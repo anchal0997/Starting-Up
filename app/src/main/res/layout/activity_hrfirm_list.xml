@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anchalgarg.myapplication.HRFirmListActivity">
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="40sp"
+                android:layout_height="wrap_content"
+                android:text="Names"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="40sp"
+                android:layout_height="wrap_content"
+                android:text="SkillLevel"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:text="LINK to website"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Contact No."
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

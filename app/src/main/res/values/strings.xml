@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StartingUp</string>
+    <string name="want_to_start_a_startup">WANT TO START A STARTUP?</string>
+    <string name="please_provide_the_following_info">Please provide the following info...</string>
+</resources>
