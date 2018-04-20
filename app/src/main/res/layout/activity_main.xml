@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anchalgarg.businessdomain.MainActivity">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="350dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="Business Domain"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SubDomains"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="65dp"
+        android:layout_alignTop="@+id/AddBtn"
+        android:layout_alignLeft="@+id/SUbDomainList"
+        android:layout_alignStart="@+id/SUbDomainList" />
+
+    <ListView
+        android:id="@+id/SUbDomainList"
+        android:layout_width="351dp"
+        android:layout_height="310dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="100dp"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+    <ImageButton
+        android:id="@+id/AddBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="65dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="ADD" />
+
+    <EditText
+        android:id="@+id/subDomain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/AddBtn"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>
