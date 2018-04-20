@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anchalgarg.tech_area.MainActivity">
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="92dp"
+        android:layout_marginTop="97dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/tech_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Tech_area"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/manpwr_feild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tech_area"
+        android:layout_alignStart="@+id/tech_area"
+        android:layout_below="@+id/add"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Manpower_feilds"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/add_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/add"
+        android:layout_alignRight="@+id/add"
+        android:layout_centerVertical="true"
+        android:text="ADD" />
+
+</RelativeLayout>
