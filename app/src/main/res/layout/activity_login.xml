@@ -61,4 +61,16 @@
         android:layout_alignStart="@+id/loginBtn"
         android:text="Sign Up" />
 
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="By Anchal Garg, Bhavya Gupta and Avani Verma"
+        android:textColor="@color/cast_expanded_controller_background_color"
+        android:textStyle="bold" />
+
 </RelativeLayout>
